@@ -20,8 +20,8 @@ function geocentric() {
      The arrangement of the planets in the crystal spheres did not fully fit with the observations 
      made of their movements in the sky. For example, Mercury and Venus did not move so far from the Sun 
      as the crystal sphere arrangement suggested they should, and the apparent backward motion of Mars, 
-     Jupiter and Saturn that occasionally occurred could not be explained by this model. T
-     he Egyptian astronomer Ptolemy, who lived in the 2nd century, proposed an explanation. 
+     Jupiter and Saturn that occasionally occurred could not be explained by this model. The 
+     Egyptian astronomer Ptolemy, who lived in the 2nd century, proposed an explanation. 
      If the planets moved around the Earth in a looped circular path, the observed planetary motion would result. 
      This explanation satisfied most people for about 1300 years.`
      
