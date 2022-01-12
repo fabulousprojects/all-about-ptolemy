@@ -128,7 +128,7 @@ function quiz() {
     document.getElementById("other-contributions").style.color = "black";
     document.getElementById("major-works").style.color = "black";
     document.getElementById("Quiz").style.color = "blue";
-    document.getElementById("pic").src = "The almagest.png";
-    document.getElementById("pic").alt = "Picture of the Almagest"
+    document.getElementById("pic").src = "Quizziz.png";
+    document.getElementById("pic").alt = "Logo Of Quizziz"
     document.getElementById("content").innerHTML = `105580`
 }
