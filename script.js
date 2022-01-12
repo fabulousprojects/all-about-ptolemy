@@ -3,6 +3,7 @@ function geocentric() {
     document.getElementById("astronomy-contributions").style.color = "black";
     document.getElementById("other-contributions").style.color = "black";
     document.getElementById("major-works").style.color = "black";
+    document.getElementById("Quiz").style.color = "black";
     
     document.getElementById("content").innerHTML = `The notion that the Earth 
     was the center of the Universe is certainly an understandable one. To ancient people,
@@ -35,8 +36,10 @@ function astronomyContributions() {
     document.getElementById("astronomy-contributions").style.color = "blue";
     document.getElementById("other-contributions").style.color = "black";
     document.getElementById("major-works").style.color = "black";
+    document.getElementById("Quiz").style.color = "black";
     document.getElementById("pic").src = "Contribution to astronomy.png";
     document.getElementById("pic").alt = "Picture of the contribution to astronomy"
+    
     document.getElementById("content").innerHTML = `Astronomy was the subject to which Ptolemy devoted the most time and effort; 
     about half of all the works that survived deal with astronomical matters, 
     and even others such as the Geography and the Tetrabiblos have significant references to astronomy.
@@ -64,6 +67,7 @@ function otherContributions() {
     document.getElementById("astronomy-contributions").style.color = "black";
     document.getElementById("other-contributions").style.color = "blue";
     document.getElementById("major-works").style.color = "black";
+    document.getElementById("Quiz").style.color = "black";
     document.getElementById("pic").src = "Other Contribution.png";
     document.getElementById("pic").alt = "An Diagram Of the Pythagorean tuning"
 
@@ -86,6 +90,7 @@ function majorWorks() {
     document.getElementById("astronomy-contributions").style.color = "black";
     document.getElementById("other-contributions").style.color = "black";
     document.getElementById("major-works").style.color = "blue";
+    document.getElementById("Quiz").style.color = "black";
     document.getElementById("pic").src = "The almagest.png";
     document.getElementById("pic").alt = "Picture of the Almagest"
 
@@ -117,4 +122,13 @@ function majorWorks() {
 
 }
 
-
+function quiz() {
+    document.getElementById("geocentric").style.color = "black";
+    document.getElementById("astronomy-contributions").style.color = "black";
+    document.getElementById("other-contributions").style.color = "black";
+    document.getElementById("major-works").style.color = "black";
+    document.getElementById("Quiz").style.color = "blue";
+    document.getElementById("pic").src = "The almagest.png";
+    document.getElementById("pic").alt = "Picture of the Almagest"
+    document.getElementById("content").innerHTML = `105580`
+}
